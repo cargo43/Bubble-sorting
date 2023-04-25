@@ -18,10 +18,10 @@ void Bubble(int a[5], int n)
             }
         }
     }
-printf("First ele: %d \n Last Ele:%d", a[0],a[4]);
+printf("First element: %d \n Last element:%d", a[0],a[4]);
 }
 int main()
 {
-   int arr[5] = {120,30,40,500,100};
+   int arr[5] = {120,20,40,400,100};
    Bubble(arr,5);
 }
